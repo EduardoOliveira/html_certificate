@@ -1,0 +1,15 @@
+html{
+	overflow: hidden;
+}
+.modal{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: white;
+	text-align: center;
+}
+.modal canvas{
+	margin-top:100px;
+}

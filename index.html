@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script type='text/javascript' src='jquery/js/jquery-1.9.1.js'></script>
+<!-- 
+	<script type='text/javascript' src='jquery/js/jquery-ui-1.10.3.custom.min.js'></script>
+	 -->
+	<script type='text/javascript' src='assets/cam.js'></script>
+	<script type='text/javascript' src='assets/form.js'></script>
+
+	<link rel="stylesheet" type="text/css" href="jquery/css/smoothness/jquery-ui-1.10.3.custom.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/a4.css" />
+	<link rel="stylesheet" type="text/css" href="assets/modal.css" />
+
+</head>
+<body>
+	
+	<video autoplay id="vid" width="100px" height="100px" style="display:none;" ></video>
+
+	<div class="book">
+		<div class="page">    
+			<canvas id="canvas" width="100px" height="100px" style="border:1px solid #d3d3d3;"></canvas>
+			<span class="nome"></span>
+		</div>
+	</div>
+	<div class="modal">
+		<canvas id="booth" width="400px" height="400px" style="border:1px solid #d3d3d3; display:inline-block;"></canvas><br>
+		<span for="name">Nome do aluno</span><br>
+		<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" /><br>
+		<button class="go">Inscrever aluno</button>
+	</div>
+</body>
+</html>
